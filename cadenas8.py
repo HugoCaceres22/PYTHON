@@ -4,6 +4,8 @@
 
 precio = input("Introduce el precio en euros con 2 decimales: ")
 d = precio.split(".")[1]
+e = precio.split(".")[0]
 
-print (f"El precio es: {precio} euros y {d} céntimos") 
+
+print (f"El precio es: {e} euros y {d} céntimos") 
 
