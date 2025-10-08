@@ -2,7 +2,8 @@
 #con dos decimales y muestre por pantalla el número de euros y el número de
 #céntimos del precio introducido
 
-precio = round(float(input("Introduce el precio en euros: ")), 2)
+precio = input("Introduce el precio en euros con 2 decimales: ")
+d = precio.split(".")[1]
 
-print (f"El precio en euros es: {precio} y el precio en céntimos es: {precio*100}") 
+print (f"El precio es: {precio} euros y {d} céntimos") 
 
