@@ -4,6 +4,20 @@
 #programa que pregunte al usuario su nombre y sexo, y muestre por pantalla el grupo
 #que le corresponde
 
+nom = input("Introduce tu nombre: ")
+sex = input("Introduce tu sexo (H o M): ")
+
+if sex == "M" and nom < "M"  :
+     print ("Perteneces a la clase A")
+
+elif sex == "H" and nom > "N" :
+    print ("Perteneces a la clase A")
+    
+else:
+    print ("Perteneces a la clase B")
+
+
+
 
 
 
