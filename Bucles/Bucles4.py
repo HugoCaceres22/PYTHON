@@ -4,13 +4,16 @@
 
 num = int(input ("Introduce un numero entero positivo: "))
 
-i = 0
 
-while i < num  :
-    i = i + 1
-    if i % 2 != 0 :
-      print (i , end=", ") 
-i = i + 1
+while num > 0  :
+  if num > 1 :
+    print (num , end=", ") 
+    num = num -1
+  else :
+    print (num) 
+    num = num -1
 
+
+     
 
      
