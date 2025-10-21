@@ -1,0 +1,16 @@
+#Escribir un programa que pida al usuario un número entero positivo y muestre por
+#pantalla todos los números impares desde 1 hasta ese número separados por
+#comas.
+
+
+num = float(input ("Introduce un numero entero positivo: "))
+
+i = 0
+
+while i < num  :
+    i = i + 1
+    if i % 2 != 0 :
+      print (i)
+i = i + 1
+
+     
