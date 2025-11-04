@@ -1,18 +1,17 @@
 #Escribir un programa que pida al usuario un número entero y muestre por pantalla si
 #es un número primo o no.
      
-num = int(input("Escribe un numero : "))
+num = input(int("Escribe un numero : "))
 i = 1
 contador = 0
 
 while i <= num : 
     if num % i == 0:
         contador = contador + 1
-    i = i+1
         
 if contador == 2 :
-    print (f"El numero num es primo")
+    print (f"El numero {num} es primo")
 else :
-    print (f"El numero num NO es primO")
+    print (f"El numero {num} NO es primO")
 
         
