@@ -4,9 +4,9 @@
 
 edad = float(input ("Introduce tu edad: "))
 
-i = edad
+i = 0
 
-while i > 1  :
-    i= i - 1
+while i < edad  :
+    i = i + 1
     print (i)
     

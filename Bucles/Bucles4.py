@@ -6,12 +6,11 @@ num = int(input ("Introduce un numero entero positivo: "))
 
 
 while num > 0  :
-  if num > 1 :
+  if num >= 1 :
     print (num , end=", ") 
     num = num -1
-  else :
-    print (num) 
-    num = num -1
+
+
 
 
      

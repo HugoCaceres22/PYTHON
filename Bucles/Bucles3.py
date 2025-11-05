@@ -1,5 +1,6 @@
 #Escribir un programa que pida al usuario un número entero positivo y muestre por
-#pantalla la cuenta atrás desde ese número hasta cero separados por comas.
+#pantalla todos los números impares desde 1 hasta ese número separados por
+#comas.
 
 
 num = int(input ("Introduce un numero entero positivo: "))
@@ -10,7 +11,7 @@ while i < num  :
     i = i + 1
     if i % 2 != 0 :
       print (i , end=", ") 
-i = i + 1
+
 
 
      
