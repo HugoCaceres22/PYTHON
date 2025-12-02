@@ -1,3 +1,3 @@
-list = ["Física","Química","Historia","Lengua"]
+list = ["Matemáticas", "Física","Química","Historia","Lengua"]
 
 print (list)
