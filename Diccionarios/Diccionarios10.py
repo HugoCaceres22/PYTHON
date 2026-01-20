@@ -10,7 +10,7 @@ while True:
 
     opcion = input("Elige una opción: ")
 
-    # 1) Añadir cliente
+    #Añadir cliente
     if opcion == "1":
         nif = input("NIF: ")
         nombre = input("Nombre: ")
@@ -33,7 +33,7 @@ while True:
 
         print("Cliente añadido.")
 
-    # 2) Eliminar cliente
+    #Eliminar cliente
     elif opcion == "2":
         nif = input("NIF del cliente a eliminar: ")
 
@@ -43,7 +43,7 @@ while True:
         else:
             print("Ese NIF no existe.")
 
-    # 3) Mostrar cliente
+    #Mostrar cliente
     elif opcion == "3":
         nif = input("NIF del cliente a mostrar: ")
 
@@ -57,18 +57,18 @@ while True:
         else:
             print("Ese NIF no existe.")
 
-    # 4) Listar todos los clientes
+    #Listar todos los clientes
     elif opcion == "4":
         for nif in clientes:
             print(nif, "-", clientes[nif]["nombre"])
 
-    # 5) Listar clientes preferentes
+    #Listar clientes preferentes
     elif opcion == "5":
         for nif in clientes:
             if clientes[nif]["preferente"] == True:
                 print(nif, "-", clientes[nif]["nombre"])
 
-    # 6) Terminar
+    # Salir
     elif opcion == "6":
         break
 
